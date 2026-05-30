@@ -7,6 +7,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.pc01movilespillco23101244huaman23200110.Pantallas.MenuPrincipal
 import com.example.pc01movilespillco23101244huaman23200110.Pantallas.CalculadoraEquipaje
+import com.example.pc01movilespillco23101244huaman23200110.Pantallas.PlanificadorPresupuesto
 
 @Composable
 fun AppNavegacion() {
@@ -18,6 +19,10 @@ fun AppNavegacion() {
         }
         composable("Equipaje") {
             CalculadoraEquipaje()
+        }
+
+        composable("Presupuesto") {
+            PlanificadorPresupuesto()
         }
     }
 }
